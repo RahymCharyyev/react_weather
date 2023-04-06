@@ -1,4 +1,9 @@
 * {
+  margin: 0;
+  padding: 0;
+}
+
+html {
   background-color: #8e87fa;
 }
 
@@ -14,11 +19,4 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
-
-.bg {
-  height: 100vh;
-  background: url(./assets/Background.png);
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
 }
