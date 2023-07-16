@@ -1,6 +1,6 @@
-import axios from "axios";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { GlobalSvgSelector } from "../../assets/GlobalSvgSelector";
+import useWeather from "../../axios/UseWeather";
 import "./getWeather.css";
 import background from "../../assets/images/get_weather_bg.png";
 import windLogo from "../../assets/images/wind.png";
@@ -8,24 +8,8 @@ import humidityLogo from "../../assets/images/humidity.png";
 import pressureLogo from "../../assets/images/pressure.png";
 import locationLogo from "../../assets/images/location.png";
 
-const BASE_URL = process.env.REACT_APP_BASE_URL;
-const API_KEY = process.env.REACT_APP_API_KEY;
-
 const GetWeather = () => {
-  const [weather, setWeather] = useState(null);
-
-  const getWeather = () => {
-    axios
-      .get(`${BASE_URL}q=Ashgabat&units=metric&lang=ru&appid=${API_KEY}`)
-      .then((response) => {
-        const weather = response.data;
-        console.log(weather);
-        setWeather(weather);
-      });
-  };
-
-  useEffect(() => getWeather(), []);
-
+  const weather = useWeather("Ashgabat");
   return (
     weather && (
       <div className="weather__wrapper">

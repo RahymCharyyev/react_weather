@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+<h1 align="center" id="top">React Weather App</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- <div align="center">
 
-## Available Scripts
+&#xa0;
 
-In the project directory, you can run:
+<a href="https://rahymcharyyev.github.io/WPL/">PRODUCTION</a>
 
-### `npm start`
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p align="center">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/RahymCharyyev/WPL?color=56BEB8">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/RahymCharyyev/WPL?color=56BEB8">
 
-### `npm test`
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/RahymCharyyev/WPL?color=56BEB8">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  <!-- <img alt="License" src="https://img.shields.io/github/license/RahymCharyyev/WPL?color=56BEB8"> -->
 
-### `npm run build`
+  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/RahymCharyyev/WPL?color=56BEB8" /> -->
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/RahymCharyyev/WPL?color=56BEB8" /> -->
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/RahymCharyyev/WPL?color=56BEB8" /> -->
+<!-- </p> -->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h4 align="center">
+	🚧  React Weather App 🚀 Under construction...  🚧
+</h4>
 
-### `npm run eject`
+<hr>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<!-- <p align="center">
+  <a href="#dart-about">About</a> &#xa0; | &#xa0;
+  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
+  <a href="#memo-screenshots">Screenshots</a> &#xa0; | &#xa0;
+  <a href="#memo-contact">Contacts</a>
+</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## :dart: About
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The project of the World Putting League website. It was developed as a test task for Pro League Network. The task was to redesign and update original WPL website using HTML, CSS (Tailwind.css) and JS.
 
-## Learn More
+## :rocket: Technologies
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The following tools were used in this project:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [HTML](https://developer.mozilla.org/ru/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/ru/docs/Web/CSS/Reference)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Wow.js](https://wowjs.uk/)
+- [Tailwind.css](https://tailwindcss.com/)
 
-### Code Splitting
+## :memo: Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Alt text](1.png) \
+&#xa0;
+![Alt text](2.png) \
+&#xa0;
+![Alt text](3.png) \
+&#xa0;
+![Alt text](4.png) \
+&#xa0;
+![Alt text](5.png) \
+&#xa0;
 
-### Analyzing the Bundle Size
+## :memo: Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+For any inquiries or questions, please contact <a href="https://github.com/RahymCharyyev" target="_blank">Rahym Charyyev</a>
 
-### Making a Progressive Web App
+&#xa0;
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<a href="#top">Back to top</a> -->

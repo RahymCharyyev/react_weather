@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Ysabeau";
+  src: url("./fonts/Ysabeau-Regular.ttf") format("ttf");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,9 +14,7 @@ html {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Ysabeau", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -19,4 +22,52 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.welcome {
+  height: 100svh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.welcome__title {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+  color: white;
+}
+
+.welcome__buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.welcome__buttons-today,
+.welcome__buttons-five {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: cornsilk;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.welcome__buttons-today:hover,
+.welcome__buttons-five:hover {
+  border-radius: 20px;
+  border: 1px solid black;
+  transition: 0.3s;
+}
+
+.welcome__copyright {
+  font-size: 18px;
+  color: white;
 }
